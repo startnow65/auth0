@@ -32,6 +32,9 @@ type User struct {
 	// for users to be added to SMS connections.
 	PhoneNumber *string `json:"phone_number,omitempty"`
 
+	// The url to the user's profile picture.
+	Picture *string `json:"picture,omitempty"`
+
 	// The time the user is created.
 	CreatedAt *time.Time `json:"created_at,omitempty"`
 
